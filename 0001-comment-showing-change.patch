@@ -1,0 +1,25 @@
+From cfd7b65c65fbbe12e3f117d10ef475b87bab92ab Mon Sep 17 00:00:00 2001
+From: "Carrie R. Nugent" <51678793+nugent-lab@users.noreply.github.com>
+Date: Tue, 26 Jul 2022 12:15:08 -0400
+Subject: [PATCH] comment showing change
+
+---
+ sep.pyx | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/sep.pyx b/sep.pyx
+index d0e93f7..dbe8906 100644
+--- a/sep.pyx
++++ b/sep.pyx
+@@ -2099,7 +2099,7 @@ def ellipse_axes(cxx, cyy, cxy):
+ 
+ # -----------------------------------------------------------------------------
+ # Utility functions
+-
++# this updated from def set_extract_pixstack(sizet size)
+ def set_extract_pixstack(size):
+     """set_extract_pixstack(size)
+ 
+-- 
+2.30.1 (Apple Git-130)
+
