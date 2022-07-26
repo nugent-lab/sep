@@ -15,7 +15,7 @@ from cpython.version cimport PY_MAJOR_VERSION
 
 np.import_array()  # To access the numpy C-API.
 
-__version__ = "1.2.1"
+__version__ = "1.2.1_nugent-lab"
 
 # -----------------------------------------------------------------------------
 # Definitions from the SEP C library
@@ -2100,7 +2100,7 @@ def ellipse_axes(cxx, cyy, cxy):
 # -----------------------------------------------------------------------------
 # Utility functions
 
-def set_extract_pixstack(size_t size):
+def set_extract_pixstack(size):
     """set_extract_pixstack(size)
 
     Set the size in pixels of the internal pixel buffer used in extract().
