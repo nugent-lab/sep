@@ -2099,7 +2099,7 @@ def ellipse_axes(cxx, cyy, cxy):
 
 # -----------------------------------------------------------------------------
 # Utility functions
-
+# this updated from def set_extract_pixstack(sizet size)
 def set_extract_pixstack(size):
     """set_extract_pixstack(size)
 
