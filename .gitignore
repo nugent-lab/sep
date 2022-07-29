@@ -54,3 +54,4 @@ sep.c
 
 # tox
 .tox
+.DS_Store
